@@ -11,10 +11,10 @@ fun main() {
     }
 
     println("--------------")
-    //saber qual é o maior valor usando .max()
+    //saber qual é o maior valor usando .max() ou .maxOrNull()
     println("Maior salário: ${salarios.max()}}")
 
-    //saber qual é o menor valor usando .min()
+    //saber qual é o menor valor usando .min() ou .minOrNull()
     println("Menor salário: ${salarios.min()}}")
 
     //saber qual é a média do array usando .average()
